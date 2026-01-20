@@ -28,9 +28,3 @@
         };
     };
 };
-
-/ {
-    chosen {
-        zmk,backlight = &backlight;
-    };
-};
