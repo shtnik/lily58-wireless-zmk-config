@@ -24,6 +24,16 @@ config SSD1306
 
 endif # ZMK_DISPLAY
 
+if ZMK_BACKLIGHT
+
+config PWM
+    default y
+
+config LED_PWM
+    default y
+
+endif # ZMK_BACKLIGHT
+
 if LVGL
 
 config LV_Z_VDB_SIZE
