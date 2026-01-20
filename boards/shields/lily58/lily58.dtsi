@@ -13,7 +13,7 @@
         zephyr,display = &oled;
         zmk,kscan = &kscan0;
         zmk,physical-layout = &kata0510_lily58_layout;
-        zmk,blacklight = &blacklight;
+        zmk,backlight = &backlight;
     };
 
     default_transform: keymap_transform_0 {
