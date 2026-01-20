@@ -60,6 +60,7 @@
 / {
     chosen {
         zmk,underglow = &led_strip;
+        zmk,blacklight = &pw_leds
     };
 };
 
