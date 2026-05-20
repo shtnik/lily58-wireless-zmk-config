@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export "CMAKE_PREFIX_PATH=/zmk-config/zephyr:$CMAKE_PREFIX_PATH"
+
 west build -d /build/left -p -b "nice_nano_v2" -s /zmk-config/zmk/app -S studio-rpc-usb-uart -- \
     -DSHIELD="lily58_left nice_view_adapter nice_view" \
     -DZMK_CONFIG="/zmk-config/config"
